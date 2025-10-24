@@ -33,6 +33,13 @@ function renderMonth() {
     cell.style.padding = "6px";
     cell.style.minHeight = "60px";
     cell.style.cursor = "pointer";
+    
+    // blank day rendering
+    if (ev.day === 0) {
+      cell.innerHTML = ""; // blank cell
+      cell.style.background = "#f0f0f0"; // optional styling
+    } else {
+    // normal rendering
 
     // Show only type if not "Nothing"
     let eventText = "";
@@ -43,7 +50,7 @@ function renderMonth() {
 
     // On click, update sidebar
     cell.addEventListener("click", () => showEventDetails(ev));
-
+  }
     grid.appendChild(cell);
   });
 }
