@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>The Garreg Mach Archive — Calculator</title>
+  <title>The Garreg Mach Archive — Stat Calculator</title>
   <style>
     :root{--accent:#6b3b8f;--bg:#f7f6fb;--card:#fff}
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:var(--bg);margin:0;color:#111}
@@ -11,9 +11,11 @@
     nav a{color:#fff;margin-right:14px;text-decoration:none;font-weight:600}
     main{max-width:980px;margin:28px auto;padding:18px;background:var(--card);border-radius:10px;box-shadow:0 6px 18px rgba(20,20,40,0.06)}
     h1{margin:0 0 8px;font-size:1.4rem}
-    .panel{border:1px dashed #e1dff2;border-radius:8px;padding:16px;color:#666}
-    .note{font-size:0.95rem;color:#555;margin-top:12px}
-    footer{max-width:980px;margin:18px auto;color:#666;font-size:0.9rem}
+    section{margin-bottom:20px}
+    label{display:block;margin:8px 0 4px}
+    input,select{padding:6px;width:100%;max-width:240px}
+    button{margin-top:12px;padding:8px 14px;background:var(--accent);color:#fff;border:none;border-radius:6px;cursor:pointer}
+    #results{margin-top:20px;padding:12px;border:1px solid #ddd;border-radius:8px;background:#fafafa}
   </style>
 </head>
 <body>
@@ -27,15 +29,30 @@
   </header>
 
   <main>
-    <h1>Party Calculator</h1>
-    <div class="panel">
-      Calculator UI placeholder. Add inputs for character selection, growth rates, and buttons to run comparisons.
-    </div>
-    <p class="note">Planned: compare current character stats to canonical averages and return a concise result.</p>
-  </main>
+    <h1>Stat Growth Calculator</h1>
 
-  <footer>
-    <div>© The Garreg Mach Archive</div>
-  </footer>
+    <section>
+      <label for="characterSelect">Select Character:</label>
+      <select id="characterSelect"></select>
+
+      <label for="levelInput">Target Level:</label>
+      <input type="number" id="levelInput" min="1" max="99" value="10">
+
+      <label for="classPath">Class Path (comma separated):</label>
+      <input type="text" id="classPath" placeholder="e.g. Noble, Fighter, Lord">
+
+      <button id="calculateBtn">Calculate Stats</button>
+    </section>
+
+    <section>
+      <h2>Compare Your Stats</h2>
+      <p>Enter your current stats to see how lucky you’ve been:</p>
+      <div id="statInputs"></div>
+      <button id="compareBtn">Compare</button>
+    </section>
+
+    <div id="results"></div>
+  </main>
 </body>
+<script src="calculator.js"></script>
 </html>
