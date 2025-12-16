@@ -1,0 +1,235 @@
+    :root {
+      --accent:#6b3b8f;
+      --bg:#f7f6fb;
+      --card:#fff;
+    }
+    body {
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      background:var(--bg);
+      margin:0;
+      color:#111;
+    }
+    header {
+      background:var(--accent);
+      color:#fff;
+      padding:12px 18px;
+    }
+    nav a {
+      color:#fff;
+      margin-right:14px;
+      text-decoration:none;
+      font-weight:600;
+    }
+    main {
+      max-width:980px;
+      margin:28px auto;
+      padding:18px;
+      background:var(--card);
+      border-radius:10px;
+      box-shadow:0 6px 18px rgba(20,20,40,0.06);
+    }
+    h1 {
+      margin:0 0 16px;
+      font-size:1.6rem;
+    }
+    h2 {
+      margin:24px 0 12px;
+      font-size:1.2rem;
+      color:var(--accent);
+    }
+    .placeholder{
+        color:#666;
+        padding:14px;
+        border:1px dashed #e1dff2;
+        border-radius:8px
+    }
+    .calendar-placeholder{
+        min-height:360px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        color:#666;
+        border:1px dashed #e1dff2;
+        border-radius:8px;
+        padding:20px
+    }
+    .char-grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(120px,1fr));
+      gap:16px;
+    }
+    .char-card {
+      background:#fff;
+      border:1px solid #e1dff2;
+      border-radius:8px;
+      padding:8px;
+      text-align:center;
+      transition:transform 0.2s;
+    }
+    .char-card:hover {
+      transform:scale(1.05);
+      cursor:pointer;
+    }
+    .char-card img {
+      width:100%;
+      height:140px;
+      max-height: 220px;
+      object-fit: contain;
+      border-radius:6px;
+    }
+    .char-name {
+      margin-top:8px;
+      font-weight:600;
+      font-size:0.9rem;
+      color:#333;
+    }
+    footer {
+      max-width:980px;
+      margin:18px auto;
+      color:#666;
+      font-size:0.9rem;
+      text-align:center;
+    }
+    section{
+        margin-bottom:20px
+    }
+    button{
+        margin-top:12px;
+        padding:8px 14px;
+        background:var(--accent);
+        color:#fff;
+        border:none;
+        border-radius:6px;
+        cursor:pointer}
+    #results{
+        margin-top:20px;
+        padding:12px;
+        border:1px solid #ddd;
+        border-radius:8px;
+        background:#fafafa
+    }
+    .back-arrow {
+        display: inline-block;
+        margin: 12px 0;
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: var(--accent);
+        text-decoration: none;
+    } /* Hello */
+    .back-arrow:hover {
+        text-decoration: underline;
+    } 
+    .portrait {
+        float: left;
+        max-width: 200px;
+        height: auto;
+        margin: 0 10px 10px 0;
+        border: 2px solid #444;
+        border-radius: 8px;
+        padding: 4px;
+        background-color: #f9f9f9;
+        box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    }
+    .char-info {
+        flex: 1;
+        overflow: hidden;
+    }
+    .card {
+        flex: 0 0 auto;
+        perspective: 1000px; /* enables 3D space */
+        display: inline-block;
+    }
+
+    .card-inner {
+        position: relative;
+        width: 200px;   /* match portrait size */
+        height: 280px;  /* adjust for image height */
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+
+    .card.flip .card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .card-front, .card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden; /* hides the reverse side */
+    }
+
+    .card-front {
+        z-index: 2;
+    }
+
+    .card-back {
+        transform: rotateY(180deg);
+    }
+    .character-layout {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    #monthNav {
+      margin: 16px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    #calendarWrapper {
+      display: flex;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    #calendarGrid {
+      flex: 3;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 6px;
+    }
+
+    #eventDetails {
+      flex: 1;
+      padding: 12px;
+      border-left: 1px solid #ccc;
+      background: #fafafa;
+    }
+    section label {
+      display: block;
+      margin-top: 12px;
+      font-weight: 600;
+    }
+
+    section input,
+    section select {
+      display: block;
+      margin-top: 4px;
+      margin-bottom: 8px;
+      width: 100%;
+      max-width: 240px;
+    }
+    #statInputs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 4px;
+      margin-top: 12px;
+    }
+
+    #statInputs .stat-field label{
+      margin-top: 0;
+      margin-bottom: 2px;
+    }
+
+    #statInputs .stat-field input{
+      width: 100%;
+      max-width: 60px;
+      display: flex;
+      flex-direction: column;
+      padding: 6px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+

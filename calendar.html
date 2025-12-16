@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Garreg Mach Archive — Calendar</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="calendar.html">Calendar</a>
+      <a href="calculator.html">Calculator</a>
+      <a href="character.html">Characters</a>
+    </nav>
+  </header>
+
+<main>
+  <h1>In-Game Calendar</h1>
+
+  <!-- Route selector -->
+  <label for="routeSelect">Select Game State:</label>
+  <select id="routeSelect">
+    <option value="White Clouds">White Clouds</option>
+    <option value="Crimson Flower">Crimson Flower</option>
+    <option value="Silver Snow">Silver Snow</option>
+    <option value="Azure Moon">Azure Moon</option>
+    <option value="Verdant Wind">Verdant Wind</option>
+  </select>
+
+  <!-- Month navigation -->
+  <div id="monthNav">
+    <button id="prevMonth">← Previous</button>
+    <h2 id="monthTitle">Great Tree Moon</h2>
+    <button id="nextMonth">Next →</button>
+  </div>
+
+  <!-- Calendar grid -->
+  <div id="calendarGrid"></div>
+
+  <!-- Detail panel -->
+  <aside id="eventDetails">
+    <h3>Event Details</h3>
+    <div id="eventContent">Select a day to see details.</div>
+  </aside>
+</main>
+
+<script src="calendar.js"></script>
+
+  <footer>
+    <div>© The Garreg Mach Archive</div>
+    <p class="copyright">
+    Fire Emblem: Three Houses © Nintendo / Intelligent Systems. 
+    This is a fan-made archive, non-commercial, and unaffiliated with Nintendo.
+    </p>
+  </footer>
+</body>
+</html>

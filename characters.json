@@ -1,0 +1,175 @@
+{
+  "Protagonist": {
+    "baseStats": { "HP":27, "Str":13, "Mag":6, "Dex":9, "Spd":8, "Lck":8, "Def":6, "Res":6, "Cha":7 },
+    "growthRates": { "HP":45, "Str":45, "Mag":35, "Dex":45, "Spd":45, "Lck":45, "Def":35, "Res":30, "Cha":45 }
+  },
+  "Sothis (NPC)": {
+    "baseStats": { "HP":26, "Str":6, "Mag":12, "Dex":6, "Spd":6, "Lck":8, "Def":6, "Res":10, "Cha":10 },
+    "growthRates": { "HP":35, "Str":30, "Mag":65, "Dex":40, "Spd":40, "Lck":65, "Def":30, "Res":60, "Cha":70 }
+  },
+  "Edelgard": {
+    "baseStats": { "HP":29, "Str":13, "Mag":6, "Dex":5, "Spd":8, "Lck":5, "Def":6, "Res":4, "Cha":10 },
+    "growthRates": { "HP":40, "Str":55, "Mag":45, "Dex":45, "Spd":40, "Lck":30, "Def":35, "Res":35, "Cha":60 }
+  },
+  "Hubert": {
+    "baseStats": { "HP":22, "Str":6, "Mag":12, "Dex":6, "Spd":7, "Lck":6, "Def":4, "Res":7, "Cha":6 },
+    "growthRates": { "HP":35, "Str":30, "Mag":55, "Dex":45, "Spd":45, "Lck":35, "Def":25, "Res":40, "Cha":35 }
+  },
+  "Dorothea": {
+    "baseStats": { "HP":24, "Str":5, "Mag":11, "Dex":6, "Spd":7, "Lck":6, "Def":4, "Res":7, "Cha":8 },
+    "growthRates": { "HP":40, "Str":20, "Mag":40, "Dex":45, "Spd":40, "Lck":35, "Def":15, "Res":35, "Cha":40 }
+  },
+  "Ferdinand": {
+    "baseStats": { "HP":28, "Str":8, "Mag":5, "Dex":6, "Spd":8, "Lck":6, "Def":6, "Res":2, "Cha":7 },
+    "growthRates": { "HP":50, "Str":45, "Mag":20, "Dex":40, "Spd":50, "Lck":40, "Def":35, "Res":20, "Cha":40 }
+  },
+  "Bernadetta": {
+    "baseStats": { "HP":25, "Str":8, "Mag":5, "Dex":7, "Spd":7, "Lck":5, "Def":4, "Res":2, "Cha":6 },
+    "growthRates": { "HP":35, "Str":35, "Mag":20, "Dex":55, "Spd":50, "Lck":25, "Def":20, "Res":30, "Cha":35 }
+  },
+  "Caspar": {
+    "baseStats": { "HP":26, "Str":9, "Mag":3, "Dex":5, "Spd":6, "Lck":8, "Def":6, "Res":2, "Cha":4 },
+    "growthRates": { "HP":55, "Str":45, "Mag":25, "Dex":45, "Spd":45, "Lck":40, "Def":30, "Res":20, "Cha":25 }
+  },
+  "Petra": {
+    "baseStats": { "HP":25, "Str":9, "Mag":3, "Dex":7, "Spd":10, "Lck":7, "Def":5, "Res":2, "Cha":6 },
+    "growthRates": { "HP":45, "Str":40, "Mag":25, "Dex":50, "Spd":60, "Lck":45, "Def":30, "Res":15, "Cha":35 }
+  },
+  "Linhardt": {
+    "baseStats": { "HP":24, "Str":5, "Mag":10, "Dex":6, "Spd":5, "Lck":7, "Def":5, "Res":9, "Cha":3 },
+    "growthRates": { "HP":30, "Str":30, "Mag":45, "Dex":40, "Spd":40, "Lck":45, "Def":30, "Res":45, "Cha":20 }
+  },
+  "Dimitri": {
+    "baseStats": { "HP":28, "Str":12, "Mag":4, "Dex":7, "Spd":7, "Lck":5, "Def":7, "Res":4, "Cha":9 },
+    "growthRates": { "HP":55, "Str":60, "Mag":20, "Dex":50, "Spd":50, "Lck":25, "Def":40, "Res":20, "Cha":55 }
+  },
+  "Dedue": {
+    "baseStats": { "HP":30, "Str":12, "Mag":2, "Dex":5, "Spd":7, "Lck":5, "Def":8, "Res":1, "Cha":4 },
+    "growthRates": { "HP":60, "Str":50, "Mag":15, "Dex":30, "Spd":20, "Lck":25, "Def":50, "Res":10, "Cha":30 }
+  },
+  "Felix": {
+    "baseStats": { "HP":26, "Str":10, "Mag":5, "Dex":6, "Spd":9, "Lck":5, "Def":5, "Res":3, "Cha":5 },
+    "growthRates": { "HP":45, "Str":55, "Mag":30, "Dex":45, "Spd":55, "Lck":40, "Def":30, "Res":20, "Cha":30 }
+  },
+  "Mercedes": {
+    "baseStats": { "HP":25, "Str":6, "Mag":10, "Dex":6, "Spd":8, "Lck":5, "Def":5, "Res":9, "Cha":8 },
+    "growthRates": { "HP":30, "Str":25, "Mag":50, "Dex":45, "Spd":40, "Lck":30, "Def":25, "Res":45, "Cha":40 }
+  },
+  "Ashe": {
+    "baseStats": { "HP":23, "Str":8, "Mag":5, "Dex":8, "Spd":9, "Lck":6, "Def":5, "Res":6, "Cha":5 },
+    "growthRates": { "HP":35, "Str":35, "Mag":25, "Dex":55, "Spd":50, "Lck":40, "Def":20, "Res":35, "Cha":25 }
+  },
+  "Annette": {
+    "baseStats": { "HP":23, "Str":6, "Mag":11, "Dex":7, "Spd":7, "Lck":6, "Def":5, "Res":4, "Cha":6 },
+    "growthRates": { "HP":25, "Str":30, "Mag":50, "Dex":50, "Spd":35, "Lck":35, "Def":20, "Res":30, "Cha":35 }
+  },
+  "Sylvain": {
+    "baseStats": { "HP":27, "Str":9, "Mag":5, "Dex":5, "Spd":8, "Lck":6, "Def":6, "Res":2, "Cha":7 },
+    "growthRates": { "HP":55, "Str":45, "Mag":30, "Dex":35, "Spd":50, "Lck":35, "Def":40, "Res":25, "Cha":40 }
+  },
+  "Ingrid": {
+    "baseStats": { "HP":27, "Str":8, "Mag":6, "Dex":6, "Spd":8, "Lck":6, "Def":5, "Res":8, "Cha":8 },
+    "growthRates": { "HP":40, "Str":35, "Mag":35, "Dex":40, "Spd":60, "Lck":45, "Def":30, "Res":40, "Cha":45 }
+  },
+  "Claude": {
+    "baseStats": { "HP":26, "Str":11, "Mag":5, "Dex":8, "Spd":8, "Lck":7, "Def":6, "Res":4, "Cha":8 },
+    "growthRates": { "HP":35, "Str":40, "Mag":25, "Dex":60, "Spd":55, "Lck":45, "Def":30, "Res":25, "Cha":55 }
+  },
+  "Lorenz": {
+    "baseStats": { "HP":28, "Str":8, "Mag":7, "Dex":6, "Spd":7, "Lck":5, "Def":6, "Res":6, "Cha":3 },
+    "growthRates": { "HP":55, "Str":40, "Mag":40, "Dex":45, "Spd":40, "Lck":25, "Def":30, "Res":40, "Cha":35 }
+  },
+  "Hilda": {
+    "baseStats": { "HP":29, "Str":10, "Mag":5, "Dex":5, "Spd":8, "Lck":6, "Def":6, "Res":3, "Cha":7 },
+    "growthRates": { "HP":50, "Str":45, "Mag":25, "Dex":30, "Spd":50, "Lck":35, "Def":35, "Res":20, "Cha":50 }
+  },
+  "Raphael": {
+    "baseStats": { "HP":30, "Str":11, "Mag":3, "Dex":5, "Spd":6, "Lck":6, "Def":7, "Res":1, "Cha":4 },
+    "growthRates": { "HP":65, "Str":50, "Mag":15, "Dex":35, "Spd":15, "Lck":35, "Def":45, "Res":10, "Cha":25 }
+  },
+  "Lysithea": {
+    "baseStats": { "HP":22, "Str":4, "Mag":11, "Dex":7, "Spd":7, "Lck":4, "Def":3, "Res":4, "Cha":5 },
+    "growthRates": { "HP":20, "Str":15, "Mag":60, "Dex":60, "Spd":50, "Lck":15, "Def":10, "Res":25, "Cha":25 }
+  },
+  "Ignatz": {
+    "baseStats": { "HP":25, "Str":8, "Mag":5, "Dex":7, "Spd":8, "Lck":8, "Def":4, "Res":6, "Cha":4 },
+    "growthRates": { "HP":35, "Str":35, "Mag":30, "Dex":50, "Spd":50, "Lck":55, "Def":25, "Res":35, "Cha":25 }
+  },
+  "Marianne": {
+    "baseStats": { "HP":23, "Str":5, "Mag":11, "Dex":6, "Spd":7, "Lck":6, "Def":4, "Res":8, "Cha":7 },
+    "growthRates": { "HP":35, "Str":20, "Mag":50, "Dex":40, "Spd":40, "Lck":35, "Def":15, "Res":45, "Cha":40 }
+  },
+  "Leonie": {
+    "baseStats": { "HP":26, "Str":9, "Mag":5, "Dex":8, "Spd":9, "Lck":6, "Def":7, "Res":2, "Cha":7 },
+    "growthRates": { "HP":40, "Str":40, "Mag":20, "Dex":55, "Spd":60, "Lck":40, "Def":40, "Res":15, "Cha":40 }
+  },
+  "Rhea (NPC)": {
+    "baseStats": { "HP":28, "Str":9, "Mag":9, "Dex":6, "Spd":6, "Lck":6, "Def":6, "Res":10, "Cha":10 },
+    "growthRates": { "HP":45, "Str":35, "Mag":45, "Dex":40, "Spd":40, "Lck":40, "Def":30, "Res":40, "Cha":70 }
+  },
+  "Manuela": {
+    "baseStats": { "HP":26, "Str":10, "Mag":8, "Dex":6, "Spd":8, "Lck":6, "Def":5, "Res":4, "Cha":7 },
+    "growthRates": { "HP":50, "Str":35, "Mag":35, "Dex":40, "Spd":60, "Lck":35, "Def":30, "Res":25, "Cha":50 }
+  },
+  "Hanneman": {
+    "baseStats": { "HP":25, "Str":6, "Mag":10, "Dex":6, "Spd":6, "Lck":4, "Def":5, "Res":7, "Cha":5 },
+    "growthRates": { "HP":40, "Str":30, "Mag":55, "Dex":45, "Spd":20, "Lck":35, "Def":25, "Res":40, "Cha":35 }
+  },
+  "Seteth": {
+    "baseStats": { "HP":27, "Str":9, "Mag":8, "Dex":8, "Spd":5, "Lck":6, "Def":6, "Res":4, "Cha":9 },
+    "growthRates": { "HP":50, "Str":45, "Mag":35, "Dex":50, "Spd":50, "Lck":25, "Def":30, "Res":25, "Cha":45 }
+  },
+  "Flayn": {
+    "baseStats": { "HP":24, "Str":6, "Mag":9, "Dex":6, "Spd":5, "Lck":4, "Def":5, "Res":10, "Cha":9 },
+    "growthRates": { "HP":25, "Str":25, "Mag":55, "Dex":45, "Spd":35, "Lck":15, "Def":25, "Res":50, "Cha":45 }
+  },
+  "Cyril": {
+    "baseStats": { "HP":24, "Str":7, "Mag":4, "Dex":6, "Spd":6, "Lck":6, "Def":5, "Res":2, "Cha":4 },
+    "growthRates": { "HP":35, "Str":20, "Mag":15, "Dex":40, "Spd":40, "Lck":30, "Def":10, "Res":10, "Cha":15 }
+  },
+  "Jeralt (NPC)": {
+    "baseStats": { "HP":29, "Str":8, "Mag":4, "Dex":6, "Spd":4, "Lck":5, "Def":6, "Res":5, "Cha":6 },
+    "growthRates": { "HP":50, "Str":45, "Mag":20, "Dex":45, "Spd":40, "Lck":25, "Def":35, "Res":35, "Cha":35 }
+  },
+  "Catherine": {
+    "baseStats": { "HP":27, "Str":8, "Mag":5, "Dex":6, "Spd":7, "Lck":6, "Def":5, "Res":2, "Cha":4 },
+    "growthRates": { "HP":50, "Str":50, "Mag":25, "Dex":40, "Spd":55, "Lck":30, "Def":30, "Res":20, "Cha":25 }
+  },
+  "Alois": {
+    "baseStats": { "HP":28, "Str":9, "Mag":4, "Dex":5, "Spd":6, "Lck":5, "Def":5, "Res":2, "Cha":7 },
+    "growthRates": { "HP":45, "Str":45, "Mag":20, "Dex":35, "Spd":40, "Lck":30, "Def":40, "Res":20, "Cha":40 }
+  },
+  "Gilbert": {
+    "baseStats": { "HP":30, "Str":9, "Mag":4, "Dex":6, "Spd":5, "Lck":4, "Def":5, "Res":2, "Cha":6 },
+    "growthRates": { "HP":55, "Str":45, "Mag":20, "Dex":45, "Spd":30, "Lck":15, "Def":45, "Res":10, "Cha":35 }
+  },
+  "Shamir": {
+    "baseStats": { "HP":26, "Str":8, "Mag":4, "Dex":7, "Spd":6, "Lck":8, "Def":5, "Res":2, "Cha":6 },
+    "growthRates": { "HP":35, "Str":40, "Mag":20, "Dex":55, "Spd":40, "Lck":55, "Def":20, "Res":15, "Cha":30 }
+  },
+
+  "Yuri": {
+    "baseStats": { "HP":24, "Str":10, "Mag":6, "Dex":7, "Spd":9, "Lck":7, "Def":5, "Res":7, "Cha":8 },
+    "growthRates": { "HP":30, "Str":40, "Mag":35, "Dex":40, "Spd":65, "Lck":45, "Def":30, "Res":35, "Cha":50 }
+  },
+  "Balthus": {
+    "baseStats": { "HP":28, "Str":11, "Mag":5, "Dex":4, "Spd":7, "Lck":3, "Def":7, "Res":4, "Cha":4 },
+    "growthRates": { "HP":50, "Str":50, "Mag":30, "Dex":25, "Spd":30, "Lck":20, "Def":45, "Res":30, "Cha":30 }
+  },
+  "Constance": {
+    "baseStats": { "HP":23, "Str":5, "Mag":11, "Dex":6, "Spd":6, "Lck":4, "Def":3, "Res":4, "Cha":6 },
+    "growthRates": { "HP":20, "Str":20, "Mag":60, "Dex":30, "Spd":35, "Lck":15, "Def":15, "Res":30, "Cha":25 }
+  },
+  "Hapi": {
+    "baseStats": { "HP":26, "Str":6, "Mag":11, "Dex":8, "Spd":6, "Lck":4, "Def":4, "Res":7, "Cha":4 },
+    "growthRates": { "HP":35, "Str":35, "Mag":45, "Dex":45, "Spd":40, "Lck":20, "Def":15, "Res":45, "Cha":25 }
+  },
+  "Jeritza": {
+    "baseStats": { "HP":30, "Str":8, "Mag":6, "Dex":6, "Spd":8, "Lck":4, "Def":7, "Res":5, "Cha":3 },
+    "growthRates": { "HP":50, "Str":50, "Mag":35, "Dex":35, "Spd":60, "Lck":30, "Def":40, "Res":25, "Cha":25 }
+  },
+  "Anna": {
+    "baseStats": { "HP":26, "Str":7, "Mag":7, "Dex":7, "Spd":7, "Lck":7, "Def":5, "Res":7, "Cha":7 },
+    "growthRates": { "HP":35, "Str":35, "Mag":35, "Dex":45, "Spd":55, "Lck":45, "Def":30, "Res":40, "Cha":50 }
+  }
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Garreg Mach Archive — Stat Calculator</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="calendar.html">Calendar</a>
+      <a href="calculator.html">Calculator</a>
+      <a href="character.html">Characters</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Stat Growth Calculator</h1>
+
+    <section>
+      <label for="characterSelect">Select Character:</label>
+      <select id="characterSelect"></select>
+
+      <label for="levelInput">Target Level:</label>
+      <input type="number" id="levelInput" min="1" max="99" value="10">
+
+      <label for="classPath">Class Path (comma separated):</label>
+      <input type="text" id="classPath" placeholder="e.g. Noble, Fighter, Lord">
+
+      <button id="calculateBtn">Calculate Stats</button>
+    </section>
+
+    <section>
+      <h2>Compare Your Stats</h2>
+      <p>Enter your current stats to see how lucky you’ve been:</p>
+      <div id="statInputs"></div>
+      <button id="compareBtn">Compare</button>
+    </section>
+
+    <div id="results"></div>
+  </main>
+    <footer>
+    <div>© The Garreg Mach Archive</div>
+    <p class="copyright">
+    Fire Emblem: Three Houses © Nintendo / Intelligent Systems. 
+    This is a fan-made archive, non-commercial, and unaffiliated with Nintendo.
+    </p>
+  </footer>
+</body>
+<script src="calculator.js"></script>
+</html>
